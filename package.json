@@ -1,17 +1,21 @@
 {
   "name": "ember-js-modules",
-  "version": "0.0.0",
-  "description": "The default blueprint for ember-cli addons.",
+  "version": "0.1.0",
+  "description": "Shim all your globals into js modules",
   "keywords": [
-    "ember-addon"
+    "ember-addon",
+    "javascript",
+    "modules",
+    "import",
+    "shim"
   ],
   "license": "MIT",
-  "author": "",
+  "author": "Exelord",
   "directories": {
     "doc": "doc",
     "test": "tests"
   },
-  "repository": "",
+  "repository": "https://github.com/Exelord/ember-js-modules",
   "scripts": {
     "build": "ember build",
     "start": "ember serve",
@@ -26,6 +30,7 @@
     "ember-cli": "~2.17.0",
     "ember-cli-dependency-checker": "^2.0.0",
     "ember-cli-eslint": "^4.2.1",
+    "ember-cli-fastboot": "^1.1.1",
     "ember-cli-htmlbars": "^2.0.1",
     "ember-cli-htmlbars-inline-precompile": "^1.0.0",
     "ember-cli-inject-live-reload": "^1.4.1",
