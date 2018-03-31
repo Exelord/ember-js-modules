@@ -3,7 +3,7 @@
 This addon will allow you to import all globals using js modules.
 Thanks to that you will stop using non-explicit variables and detect non-existent API.
 
-> I know, the idea is crazy but it seems to work 😅
+This is a wrapper for a babel plugin: [babel-plugin-javacsript](https://github.com/Exelord/babel-plugin-javascript)
 
 ## Usage
 
