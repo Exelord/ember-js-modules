@@ -3,13 +3,11 @@
 module.exports = {
   name: 'ember-js-modules',
 
-  included(app, parentAddon) {
-    let target = (parentAddon || app);
-
-    target.options = target.options || {};
-    target.options.babel = target.options.babel || {};
-    target.options.babel.plugins = target.options.babel.plugins || [];
-    target.options.babel.plugins.push('javascript');
+  included(parent) {
+    parent.options = parent.options || {};
+    parent.options.babel = parent.options.babel || {};
+    parent.options.babel.plugins = parent.options.babel.plugins || [];
+    parent.options.babel.plugins.push('javascript');
 
     return this._super.included.apply(this, arguments);
   }
