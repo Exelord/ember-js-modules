@@ -1,3 +1,6 @@
+# DEPRECATED
+This addon is deprecated in favour of using pure babel plugin ([babel-plugin-javacsript](https://github.com/Exelord/babel-plugin-javascript)) in you ember application.
+
 # ember-js-modules
 
 This addon will allow you to import all globals using js modules.
